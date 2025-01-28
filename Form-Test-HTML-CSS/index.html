@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Tabela de Pesquisa</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Style Principal -->
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <!-- Style Padrão -->
+    <link rel="stylesheet" href="./Assets/css/padrao.css" />
+  </head>
+  <body class="flex">
+    <div class="container">
+      <form action="#">
+        <div class="custom">
+          <div class="t2-l">
+            <label for="nome">Nome:</label> <br>
+            <input type="text" name="nome" />
+          </div>
+          <div class="t2-r">
+            <label for="sobrenome">Sobrenome:</label> <br>
+            <input type="text" name="sobrenome" />
+          </div>
+        </div>
+        <div class="custom">
+          <div class="t2-l">
+            <label for="idade">Idade:</label> <br>
+            <input type="number" name="idade" />
+          </div>
+          <div class="t2-r">
+            <label for="profissao">Profissão:</label> <br>
+            <input type="text" name="profissao" />
+          </div>
+        </div>
+        <div>
+          <button type="submit" class="button">Enviar</button>
+        </div>
+      </form>
+
+      <div class="tabela">
+        <table>
+          <thead>
+            <tr>
+              <th>Nome</th>
+              <th>Sobrenome</th>
+              <th>Idade</th>
+              <th>Profissão</th>
+            </tr>
+          </thead>
+          <tbody class="enviados">
+            <tr>
+              <td>Bruninha</td>
+              <td>Fofinha</td>
+              <td>21</td>
+              <td>dev fodona</td>
+            </tr>
+            <tr>
+              <td>Jake</td>
+              <td>Gordinho</td>
+              <td>4</td>
+              <td>vigilante</td>
+            </tr>
+            <tr>
+              <td>Felipe</td>
+              <td>pipipi</td>
+              <td>19</td>
+              <td>vagabundo</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr class="footer">
+              <td class="footer-cell"></td>
+              <td class="footer-cell">Registros</td>
+              <td class="footer-cell">3</td>
+              <td class="footer-cell"></td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
